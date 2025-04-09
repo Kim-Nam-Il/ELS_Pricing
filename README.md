@@ -7,6 +7,12 @@
 
 This repository contains a Jupyter Notebook for pricing **Equity-Linked Securities (ELS)** using the **Monte Carlo simulation method**. The notebook (`ELS_MonteCarlo_1.ipynb`) walks through the entire process of modeling, simulating, and visualizing the fair value of an ELS product, both in theoretical settings and with real market data.
 
+
+|                | Asset Count 1 | Asset Count 2 | Asset Count 3 |
+|----------------|---------------|---------------|---------------|
+| Monte-Carlo    |               |               |               |
+| Finite Definite|               |               |               |
+
 ---
 
 ## Notebook Overview
