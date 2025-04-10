@@ -10,8 +10,8 @@ This repository contains a Jupyter Notebook for pricing **Equity-Linked Securiti
 
 |                | Asset Count 1 | Asset Count 2 | Asset Count 3 |
 |----------------|---------------|---------------|---------------|
-| Monte-Carlo    |      A        |       B       |       C       |
-| Finite Definite|      D        |       E       |       F       |
+| Monte-Carlo    | [A_1Asset_MC.ipynb](./A_1Asset_MC.ipynb) | [B_2Assets_MC.ipynb](./B_2Assets_MC.ipynb) |       C       |
+| Finite Definite| [D_1Asset_FDM.ipynb](./D_1Asset_FDM.ipynb) | [D_1Asset_FDM.ipynb](./D_1Asset_FDM.ipynb) |       F       |
 
 ---
 
