@@ -10,8 +10,8 @@ This repository contains a Jupyter Notebook for pricing **Equity-Linked Securiti
 
 |                | Asset Count 1 | Asset Count 2 | Asset Count 3 |
 |----------------|---------------|---------------|---------------|
-| Monte-Carlo    |               |               |               |
-| Finite Definite|               |               |               |
+| Monte-Carlo    |      A        |       B       |       C       |
+| Finite Definite|      D        |       E       |       F       |
 
 ---
 
