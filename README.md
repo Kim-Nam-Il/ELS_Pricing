@@ -15,8 +15,8 @@ The repository includes six Jupyter Notebooks, each focusing on a specific combi
 
 |                | 1 Asset                            | 2 Assets                           | 3 Assets                           |
 |----------------|------------------------------------|------------------------------------|------------------------------------|
-| **Monte Carlo** | [A_1Asset_MC.ipynb](./A_1Asset_MC.ipynb) | [B_2Assets_MC.ipynb](./B_2Assets_MC.ipynb) | [C_3Assets_MC.ipynb](./C_3Assets_MC.ipynb) |
-| **Finite Difference** | [D_1Asset_FDM.ipynb](./D_1Asset_FDM.ipynb) | [E_2Assets_FDM.ipynb](./E_2Assets_FDM.ipynb) | [F_3Assets_FDM.ipynb](./F_3Assets_FDM.ipynb) |
+| **Monte Carlo** | [A](./A_1Asset_MC.ipynb) | [B](./B_2Assets_MC.ipynb) | [C](./C_3Assets_MC.ipynb) |
+| **Finite Difference** | [D](./D_1Asset_FDM.ipynb) | [E](./E_2Assets_FDM.ipynb) | [F](./F_3Assets_FDM.ipynb) |
 
 ---
 
