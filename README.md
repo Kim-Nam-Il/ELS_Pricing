@@ -1,9 +1,9 @@
-I'll help revise the Markdown to create a clearer, more consistent README for your ELS Monte Carlo Pricing Simulator project. The revised version will focus on the six notebooks listed in the table, streamline the structure, and maintain a professional tone while addressing the "in-progress" nature of the project.
+I'll help revise the Markdown to create a clearer, more consistent README for your ELS Pricing Simulator project. The revised version will focus on the six notebooks listed in the table, streamline the structure, and maintain a professional tone while addressing the "in-progress" nature of the project.
 
 ---
 
-# ELS Monte Carlo Pricing Simulator
-
+# ELS Pricing (Monte Carlo/Finite Difference Method)
+ 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
