@@ -1,7 +1,3 @@
-I'll help revise the Markdown to create a clearer, more consistent README for your ELS Pricing Simulator project. The revised version will focus on the six notebooks listed in the table, streamline the structure, and maintain a professional tone while addressing the "in-progress" nature of the project.
-
----
-
 # ELS Pricing (Monte Carlo/Finite Difference Method)
  
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)
@@ -97,5 +93,3 @@ Contributions and feedback are welcome!
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
 
 ---
-
-This revised Markdown organizes the content around the six notebooks, clarifies their purpose, and acknowledges the project's ongoing development. It removes redundant details (e.g., the original focus on `ELS_MonteCarlo_1.ipynb`) and ensures consistency in tone and structure. Let me know if you'd like further tweaks!
