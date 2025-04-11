@@ -1,3 +1,7 @@
+I'll help revise the Markdown to create a clearer, more consistent README for your ELS Monte Carlo Pricing Simulator project. The revised version will focus on the six notebooks listed in the table, streamline the structure, and maintain a professional tone while addressing the "in-progress" nature of the project.
+
+---
+
 # ELS Monte Carlo Pricing Simulator
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)
@@ -5,47 +9,93 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 ![Status](https://img.shields.io/badge/Status-IN--PROGRESS-yellow?style=flat-square&logo=github)
 
-This repository contains a Jupyter Notebook for pricing **Equity-Linked Securities (ELS)** using the **Monte Carlo simulation method**. The notebook (`ELS_MonteCarlo_1.ipynb`) walks through the entire process of modeling, simulating, and visualizing the fair value of an ELS product, both in theoretical settings and with real market data.
-
-
-|                | Asset Count 1 | Asset Count 2 | Asset Count 3 |
-|----------------|---------------|---------------|---------------|
-| Monte-Carlo    | [A_1Asset_MC.ipynb](./A_1Asset_MC.ipynb) | [B_2Assets_MC.ipynb](./B_2Assets_MC.ipynb) |       C       |
-| Finite Definite| [D_1Asset_FDM.ipynb](./D_1Asset_FDM.ipynb) | [E_2Assets_FDM.ipynb](./E_2assets_FDM.ipynb) | [F_3Assets_FDM_ipynb.ipynb](./F_3Assets_FDM_ipynb.ipynb) |
+This repository contains Jupyter Notebooks for pricing **Equity-Linked Securities (ELS)** using **Monte Carlo simulation** and **Finite Difference Methods (FDM)**. The project models ELS pricing for varying numbers of underlying assets (1, 2, and 3) and is currently under development.
 
 ---
 
-## Notebook Overview
+## Project Overview
 
-### `ELS_MonteCarlo_1.ipynb`
+The repository includes six Jupyter Notebooks, each focusing on a specific combination of asset count and pricing method, as outlined below:
 
-| Section | Description |
-|--------|-------------|
-| **1. GBM Simulation** | Simulates a single stock price path using Geometric Brownian Motion (GBM). |
-| **2. GBM Simulation (Multiple)** | Generates and visualizes multiple GBM paths to show stochastic variability. |
-| **3. Final Price Distribution** | Simulates 10,000 paths and visualizes the distribution of final prices. |
-| **4. Finite Difference Method** | Solves the Black-Scholes PDE using FDM on a non-uniform grid to compute European call option price. |
-| **5. ELS Pricing via Monte Carlo** | Full ELS pricing model with early redemption and knock-in logic under simulated paths. |
-| **6. ELS Fair Value Example** | Uses actual KOSPI data (2018–2021) to calculate daily ELS fair values. |
+|                | 1 Asset                            | 2 Assets                           | 3 Assets                           |
+|----------------|------------------------------------|------------------------------------|------------------------------------|
+| **Monte Carlo** | [A_1Asset_MC.ipynb](./A_1Asset_MC.ipynb) | [B_2Assets_MC.ipynb](./B_2Assets_MC.ipynb) | [C_3Assets_MC.ipynb](./C_3Assets_MC.ipynb) |
+| **Finite Difference** | [D_1Asset_FDM.ipynb](./D_1Asset_FDM.ipynb) | [E_2Assets_FDM.ipynb](./E_2Assets_FDM.ipynb) | [F_3Assets_FDM.ipynb](./F_3Assets_FDM.ipynb) |
+
+---
+
+## Notebooks
+
+### Monte Carlo Simulation
+1. **[A_1Asset_MC.ipynb](./A_1Asset_MC.ipynb)**  
+   - Simulates stock price paths for a single asset using Geometric Brownian Motion (GBM).  
+   - Includes multiple path simulations, final price distribution, and ELS pricing with early redemption and knock-in features.  
+   - Visualizes asset paths and fair value evolution.
+
+2. **[B_2Assets_MC.ipynb](./B_2Assets_MC.ipynb)**  
+   - Extends Monte Carlo simulation to two correlated assets.  
+   - Models ELS pricing with knock-in barriers and early redemption logic.  
+   - Visualizes correlated price paths and fair value.
+
+3. **[C_3Assets_MC.ipynb](./C_3Assets_MC.ipynb)**  
+   - Simulates three correlated assets for ELS pricing.  
+   - Implements complex knock-in and redemption structures.  
+   - Includes visualizations for multi-asset paths and distributions.
+
+### Finite Difference Method
+4. **[D_1Asset_FDM.ipynb](./D_1Asset_FDM.ipynb)**  
+   - Solves the Black-Scholes PDE for a single asset using FDM on a non-uniform grid.  
+   - Computes European option prices and ELS fair values.  
+   - Visualizes grid solutions and price evolution.
+
+5. **[E_2Assets_FDM.ipynb](./E_2Assets_FDM.ipynb)**  
+   - Applies FDM to price ELS with two correlated assets.  
+   - Handles multi-dimensional PDEs for accurate pricing.  
+   - Includes visualizations of price surfaces.
+
+6. **[F_3Assets_FDM.ipynb](./F_3Assets_FDM.ipynb)**  
+   - Extends FDM to three assets, solving high-dimensional PDEs.  
+   - Computes ELS fair values with early redemption and knock-in features.  
+   - Visualizes multi-dimensional results.
 
 ---
 
 ## Features
 
-- **Monte Carlo Simulation** of asset price paths with early redemption and knock-in structure.
-- **Black-Scholes PDE Solution** using finite difference method on a non-uniform grid.
-- **Real Market Data Integration** for historical KOSPI index.
-- **Daily Fair Value Tracking** of ELS across a 3-year time span.
-- Clear **visualizations** for asset paths, price distributions, and ELS fair value evolution.
+- **Monte Carlo Simulations**: Models asset price paths with GBM, supporting early redemption and knock-in structures for 1–3 assets.
+- **Finite Difference Method**: Solves Black-Scholes PDEs on non-uniform grids for precise ELS pricing.
+- **Real Market Data**: Integrates historical data (e.g., KOSPI 2018–2021) for realistic fair value calculations (in progress).
+- **Visualizations**: Includes plots for price paths, final price distributions, and fair value evolution.
+- **Modular Design**: Notebooks are structured for easy extension to additional assets or methods.
 
 ---
 
 ## Requirements
 
-Install the required Python packages before running the notebook:
+To run the notebooks, install the required Python packages:
 
 ```bash
-pip install numpy pandas matplotlib
+pip install numpy pandas matplotlib scipy
 ```
 
-IN PROGRESS
+---
+
+## Status
+
+This project is **in progress**. Current efforts focus on:
+- Completing Monte Carlo simulations for three assets (`C_3Assets_MC.ipynb`).
+- Refining FDM implementations for multi-asset cases (`E_2Assets_FDM.ipynb`, `F_3Assets_FDM.ipynb`).
+- Integrating real market data across all notebooks.
+- Enhancing visualizations and documentation.
+
+Contributions and feedback are welcome!
+
+---
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
+
+---
+
+This revised Markdown organizes the content around the six notebooks, clarifies their purpose, and acknowledges the project's ongoing development. It removes redundant details (e.g., the original focus on `ELS_MonteCarlo_1.ipynb`) and ensures consistency in tone and structure. Let me know if you'd like further tweaks!
